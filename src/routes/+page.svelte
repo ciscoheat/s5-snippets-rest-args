@@ -1,6 +1,6 @@
 <script lang="ts"></script>
 
-<!-- Remove the whitespace before the colon to remove error -->
+<!-- Error when using rest argument (...) -->
 {#snippet foo(...test: string[])}
 	<button>{test.join(", ")}</button>
 {/snippet}
